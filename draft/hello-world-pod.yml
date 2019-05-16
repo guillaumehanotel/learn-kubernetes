@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: hello-world
+spec:
+    containers:
+        - name: hello-world
+    image: dockercloud/hello-world
+    ports:
+        - containerPort: 80
+    env:
+        - name: TEST
+          value: toto
+    resources:
+      limits: 
+        cpu: 100m
+        memory: 128Mi
+      requests:
+        cpu: 100m
+        memory: 128Mi
