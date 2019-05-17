@@ -18,6 +18,7 @@ cette IP vous devriez pouvoir afficher le hello-world
 fonctionne toujours.
 
 ## Solution :
+/!\ Non fonctionnel /!\
 
 Il Faut : 
 - Un namespace
@@ -28,4 +29,4 @@ Il Faut :
 
 Appliquer la conf :
 
-kubectl --insecure-skip-tls-verify run -f ./hello-world# learn-kubernetes
+kubectl --insecure-skip-tls-verify run -f ./hello-world
